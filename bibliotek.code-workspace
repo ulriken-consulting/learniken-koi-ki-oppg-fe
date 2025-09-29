@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../bibliotek_backend"
+		},
+		{
+			"path": "../copilot_instructions"
+		}
+	],
+	"settings": {
+		"github.copilot.enable": {
+			"*": true,
+			"yaml": true,
+			"plaintext": true,
+			"markdown": true
+		},
+		"chat.instructionsFilesLocations": {
+			
+			"**/*": [
+				"../copilot_instructions/.github/instructions/General-interaction.instructions.md",
+				"../copilot_instructions/.github/instructions/MCP-playwright.instructions.md"
+			],
+			"**/*.ts": [
+				"../copilot_instructions/.github/instructions/TypeScript-development.instructions.md"
+			]
+		}
+	}
+}
