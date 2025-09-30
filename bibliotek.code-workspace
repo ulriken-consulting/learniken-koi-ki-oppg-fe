@@ -4,10 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "../bibliotek_backend"
+			"path": "../learniken-koi-ki-oppg-be"
 		},
 		{
-			"path": "../copilot_instructions"
+			"path": "../learniken-koi-ki-oppg-ci"
 		}
 	],
 	"settings": {
